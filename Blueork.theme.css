@@ -1,0 +1,17 @@
+//META{"name":"Blueork","description":"eae man kkk","author":"Sunork","version":"1.0"}*//{}
+
+/* IMPORT CSS */
+@import url(https://gitcdn.xyz/repo/mathdsp/Blueork/master/blueork.css);
+
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANTE: PAPAGALI DA O CU!
+---------------------------------------------------------------------------------------------------------------------------------------------*/
+/* SET OPTIONS */
+:root { 
+ --main-color: #057F95;
+ --hover-color: #045B6B;
+}
+.app, canvas, .callout-backdrop {
+	background-image: url("http://i.imgur.com/RJqCPNF.jpg") !important;
+}
