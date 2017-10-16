@@ -47,3 +47,10 @@
     left: 1px;
     top: 1px;
 }
+.container-RYiLUQ,
+.wrapper-2ldvyE,
+.private-channels .channel.selected a,
+.private-channels .channel:hover a
+{
+    background: transparent !important;    
+}
