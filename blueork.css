@@ -54,3 +54,40 @@
 {
     background: transparent !important;    
 }
+/* Fixes */
+#app-mount,
+.app .layers .layer,
+.app .layers .layer>[class*='container-'],
+.app .layers,
+.content-region,
+.guilds-wrapper,
+.sidebar-region,
+.ui-standard-sidebar-view,
+[class*='activityFeed-'],
+[class*='channels-'],
+[class*='titleBar-']
+{
+  /* Too dark or too bright? Adjust the opacity (`0.15`) to something lower or higher */
+  background: rgba(0,0,0,0.30) !important;
+}
+
+.channel-members,
+.chat .content,
+.chat form,
+.chat,
+.content .flex-spacer,
+.messages-wrapper,
+.typing,
+[class*='channels-'] [class*="container-"],
+[class*='headerBar-'],
+[class*='titleWrapper-'] [class*='title-']
+{
+  background: transparent !important;
+}
+
+.messages-wrapper + form {
+  box-shadow: none !important;
+}
+[class*='titleBar-'] { margin-top: 0; }
+[class*='titleBar-'] [class*='winButton-'] { top: 0; }
+[class*='titleBar-'] { background-color: rgba(0,0,0,50) !important; }
