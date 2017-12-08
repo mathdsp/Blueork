@@ -26,7 +26,7 @@
 }
 /*set background*/
 .app, canvas, .callout-backdrop {
-	background-image: url("http://i.imgur.com/RJqCPNF.jpg") !important;
+	background-image: url("https://i.imgur.com/6v9AGQZ.jpg") !important;
 	background-size: cover;
 }
 /*this property covers the background-image, unless transparent*/
@@ -2096,8 +2096,6 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .activity strong { color: #0beaf7; }
 
 .message-text/* .member*/ {-webkit-transition: background-color 0.25s ease-in, border-radius 0.3s cubic-bezier(0.68, -1.25, 0.228, 1.8); transition: background-color 0.25s ease-in, border-radius 0.3s cubic-bezier(0.68, -1.25, 0.228, 1.8); }
-
-.message-text:hover {background-color: rgba(255, 255, 255, 0.15); border-radius: 3px; }
 
 .channel-members h2 { padding: 4px 15px; width: 180px; }
 
